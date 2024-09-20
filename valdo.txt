@@ -1,0 +1,462 @@
+ data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'pastebin.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'pastebin.com',
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      autoSelectFamilyAttemptedAddresses: [Array],
+      [Symbol(alpncallback)]: null,
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 1580,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 459,
+        [Symbol(triggerId)]: 457
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'GET /raw/undefined HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/1.7.7\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: pastebin.com\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/raw/undefined',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [TLSSocket],
+      _consuming: true,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'https://pastebin.com/raw/undefined',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 34,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'pastebin.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://pastebin.com/raw/undefined',
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: Object [AxiosHeaders] {
+      date: 'Mon, 16 Sep 2024 12:40:16 GMT',
+      'content-type': 'text/html; charset=UTF-8',
+      'transfer-encoding': 'chunked',
+      connection: 'keep-alive',
+      'x-frame-options': 'DENY, DENY',
+      'x-content-type-options': 'nosniff, nosniff',
+      'x-xss-protection': '1;mode=block, 1;mode=block',
+      'cache-control': 'public, max-age=1801',
+      'cf-cache-status': 'HIT',
+      age: '1509',
+      vary: 'Accept-Encoding',
+      server: 'cloudflare',
+      'cf-ray': '8c40ec91db130380-ORD'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://pastebin.com/raw/undefined',
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [TLSSocket],
+      _header: 'GET /raw/undefined HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: axios/1.7.7\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: pastebin.com\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/raw/undefined',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'pastebin.com',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: '<!DOCTYPE html>\n' +
+      '<html lang="en">\n' +
+      '<head>\n' +
+      '    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes" />\n' +
+      '    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />\n' +
+      '    <title>Pastebin.com - Not Found (#404)</title>\n' +
+      '</head>\n' +
+      '<body>\n' +
+      '\n' +
+      '\n' +
+      '<h1>Not Found (#404)</h1>\n' +
+      '<p>This page is no longer available. It has either expired, been removed by its creator, or removed by one of the Pastebin staff.</p>\n' +
+      '\n' +
+      '</body>\n' +
+      '</html>'
+  },
+  status: 404
+}
+No session found or downloaded, QR code will be printed for authentication.
+🤖 Ethix-MD using WA v2.3000.1015901307, isLatest: true
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄▀▀▀████▀██ ▀▀▀▄ ▄█  ▄ ▄▀ ▀▄▄▀██▄▄▄ ▀ ▄ ██ ▄▄▄▄▄ █
+█ █   █ █  ▄▄▄▀█▄█ ▀▄█▀█ ▀ █ █▀█ █▀█ ▀█▀█▄▀ ▀█▀▄ ██ █   █ █
+█ █▄▄▄█ █▄▀▀▀███▀▀█▀ ▀   █▀ ▄▄▄ █▄▄▀▀█  ▄██▀▀█▄▀▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█ █▄█ █▄▀ ▀▄█ ▀▄█ █▄█ ▀ ▀ █ ▀▄█▄█▄█ █▄█ █▄▄▄▄▄▄▄█
+█▄ ▄▄██▄▀▄ ▀ ▀█▀▄▄▄█▀█    ▀▄     █ ▄▀▀▄▄▄ ▀ ██▄█▀ ▄██▄▄ ▀ █
+█▀ ▀▄ ▄▄▄▀█▀██ ▀ ▀ ██ ▄▄█▄▀█▀▄ ▀▀ ▀▀ ▄▄▀ ▄█▀█▀ ▄▄  █▀▄ ▄▀▄█
+█▀█▀ ▄▄▄▄██▀ ▄▄ ▀██▄  █▄█▄▄ ▀▀█▀▄█ ▄▄ █ ▀██████▄█▄▀▀ █▀ █▀█
+█ ▀ ▄█ ▄ ▄█   ▀█▄▄ ▀▄██▄▀ ▀█ ▄▀▀▄ ▀█▄ █ ▄  ▀ ▀ █▀█ ▄█▀  ███
+█ ▄  ██▄▄▄█ ██ ▄▀▀▀███▄█ █  ▄▄ ▄▄ █▀▀▀█▄▄█ ██ ▄▀▀▄▄▄▀█    █
+██▀▀ ██▄██▄▀▄▄▀▀█▄█▄▀▄██▀▀█▀█  █▄▀█ ▀▄ █ █▀▀▄▀  █▄▄▀ ▀▄▄▄▀█
+███▀██▀▄█▄▀ ▄▄ ██ ▄▀██  ▀█▀ ▄▄▀▀▀█▄▄▄▀▀▄▄▄▀▀▀██▄▄  ▄▀▄█   █
+██  █▀ ▄▄▀ ▄█   ▀▄▀▀ ▄ ▄  █▀█  ▀ ▄▀▄▀█▀███▄ █▄  ██ █▀  ██▄█
+█▄▄▄ █▄▄█▄ █  ▀▄ ▄▄ █ ▀█▄▄██▀▀██▄▄      ▀█▄▄ █▀█▄▄█ ▀▀▀█ ▄█
+██▄█  ▄▄▄ █▀ ██   ▄▄▀▀█▄▀▀  ▄▄▄ ▀ ▀▄█▄▄ █▀▄▄▀▀ █▄ ▄▄▄ ▀▀▄▀█
+██▀█  █▄█ ▄ █ █▀▄ █▄▄█▀▀▀▄█ █▄█ ▄▄  ▀▀█▄██▄▄ ▄ ▀█ █▄█  ▀█▀█
+█ ▀▄ ▄ ▄ ▄ ▄▀▄▄█▀ █▄ ▀▀▀ ▄█ ▄▄  ▀▄  ▄ ▄▄█▄ ▀█▄█ █  ▄ ▄██▄▀█
+█▄█▀ █▀▄████ ▄ ▀▄▄ ▀ ▄▄▄▀▀█ ▄█▀▀▀▀ ▄ ▀▄█▄▄▀ █▀▄█▀█▀█▄▄  ▀ █
+█▀█ ▄▄▀▄▄▄  ▄▄█▄██▀ ▀ ▀▄▄▄ █▄▀ █▄ ▀  ▀ █ ▀▄▀ ▀█▀ ▄ ▄██▄▄▄ █
+███▄ ▄ ▄  █▄▀▄▄▄██▄ ▀███ ▄█▄████ █ █    █▀▄█ ▀ ▄▀▀██▀█ ▀▄▄█
+█▄▀ ▀█ ▄▀ ▀▀▄▄▄▄ ▄▄▀  ▀▀▄▀▄▄ ▄██ ▄▀▄ █▀▄█▀█▀▄▀▀█▄███  ▀ █▄█
+█▄▄▀▄ ▀▄█ ▄█▄▀██ ▀▀█ █ █ ▄▀ ▄ ███▄▄▀█▀█▄▄█▀█▄▄   ▀▀▄▀▀▄█▀ █
+█▀ █▄▄ ▄▀▀▀█▀ ██▀▀█▄▄▀█ ██▀█▄▄  ▀█▀█▄  ▀█▀ ▄▀▀▀█▀ ▄█▄█▄█▄██
+█ █ █▄▀▄ ▀▀█▄   ▀█▀▀▀▄ █▀ ███▄█ █▀▄▄▀█▀█ ▄▀▀▀▀█▄▀█▀▀▄█▀ ▄ █
+█ ▀ ▀▀▄▄ ▀▀█▄█▄▄▄▄▀▀▄██▀▀  ▀▀██▀▄  ▄▄▀▄█▄▄▄   ▀█   ▄ ▄▀█  █
+███████▄▄▀ ▀  █  ▄  ▀▀▄▀██▀ ▄▄▄ ▄▀▄█▄▄ ▀▀▀██▄▀▀█▀ ▄▄▄ █▄█▄█
+█ ▄▄▄▄▄ ██▀ ▀▀▀▄▀▀██▀ █ ▄ ▄ █▄█ ██ ▀ ██▀  ██▀ ▀▀▄ █▄█ ▄ ▀██
+█ █   █ █▀█▄▀█▄▀▀██▀ ▄ ▀ ▀▀ ▄    ▄  ▀█▄▄ █▀▄▄▄▀ ▄▄ ▄▄▄█  ██
+█ █▄▄▄█ █ ▀ ▀  █  ▀ ▄▀▀▀█▀█▄▀▀█▀█ ▀ ▀█▄█  ▀▄▀█ ▄  ▀ ▀▀▄▄█▀█
+█▄▄▄▄▄▄▄█▄▄▄▄██▄█▄▄█▄█▄▄▄████████▄██▄█▄█▄▄▄█████▄███▄█▄▄███
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄▀▀▀██▄ █▄█▄▀▀▀  ▄█  ▄ ▄▀▀███▄████ ▄  ▄ ██ ▄▄▄▄▄ █
+█ █   █ █  ▄▄▄▀█▄█ ▀██▀█ ▀ █ █▀█▀█▀█ ▀█▀▄█▀  █▀▄ ██ █   █ █
+█ █▄▄▄█ █▄▀▀█▀██▀▀█▀ ▀   █▀ ▄▄▄  █▄▀█     █▀▄ ▄▀▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█▄▀ █ █▄▀ ▀▄█ ▀▄█ █▄█ ▀ ▀ █ ▀▄█▄█▄█ █▄█ █▄▄▄▄▄▄▄█
+█▄ ▄▄██▄█▄██▀ █▀▄▄▄█▀█    ▀▄     █ ▄▀▀▄▄▄ ▀ ██▄█▀▀ ██▄▄ ▀ █
+█▀ ▀▄▀▄▄▀ ▀ ▄▄ ▀ ▀ ██ ▄▄█▄█▄▀▄ ▀▀ █▀ ▄▄█ ▄▀▀█▀▄ ▀▀▀█▀▄ ▄▀▄█
+█▀███▄▄▄     ▄▄ ▀██▄  █▄█▄▄ ▄██▀▄█▀▄▄   ▀█▄▄██ ▄▄▄▀▀▄██ █▀█
+█ █▄▀█ ▄▀▄█   ▀█▄▄██▄█ ▄▀ ▀█▀▄▀▀▄ ██ ▄▀█ ▄▀▀ ▀ ▀█▀ ▄▄ ▀ ███
+██▄▀███▄▄▄█ ██ ▄▀  ▀▄█ ▀▀▄  ▄▄▄▄▄ ▄▀ █▄█ █ ▄█ ▀ ▀▄▄▄▀█ ▀  █
+██ ▄▀▀▀▄██▄▀▄▄▀▀  █▄▄███▀▄█▀█  █ ██ ▀  █▀ ▀▀█  ▀█▄▄█ ▀▄▄ ▀█
+█ ▄▀█▄ ▄█▄▀ ▀▀ ██ ▄▀██  ▀█▀ ▄▄▀▀▄█▄▄▀▀▀▄▄ ▀▀▀▀█▄▄  █▀▄█   █
+██  █ ▀▄▄█▄▀█▀▀█▀▄▀▀ ▄ ▄  █▀█  ▀▀█▀▄ █▀███▄ ▄█  ███▀▀  ██▄█
+█▄▄▄ ▄▀▄▄▀▄ ▀▀▀█ ▄▄ █ ▀█▄▄█▀▀▀██▄▄      ▀█▄▄ █▀██▄▀ ▀▀▀█ ▄█
+██▄█  ▄▄▄ ▄▄ ██▄  ▄▄▀▀█▄▀▀  ▄▄▄ ▀ █▄█▄ ▄█▀ ▄▀▀ ▀▀ ▄▄▄ ▀▀▄▀█
+██▀   █▄█ ▄▀█ ▄▀▄ █▄▄█▀▀▀▄█ █▄█ ▄▄▀▀▀▀█▄██ █ ▄▀▀▀ █▄█  ▄█▀█
+██ █ ▄ ▄▄  ▄▀▄▄█▀    ▀▀█ ▄▄ ▄▄  ▀▄  ▄ ▀▀█▄ ▄█▄█▀   ▄ ▄██▄▀█
+█ ▄█▄█▀▄▀ ██ ▄ ▀█▄▄▀▀▄ ▄ ▀█ ▄█▀▀▀▀ ▄█▀▀▄  ▀ █▀▄▄▀ ▀██▄▀ █▄█
+█ ▄▀▀▄▀▄ ▄  ▄▄█▄▄▀▀ ▄▀▀▄▀█ █▄▄ █▄▄▀ ▀▀▀███▄▀  ▄▀▀▄ ▄  ▄▄ ▄█
+██▄▄ ▄ ▄  █▄▀▀▄▄██▄ ▀███ ▄█▄██▀  █ █▄▄  ▀▀▄█▄▀ ▄▀▀██▀█ ▀█▄█
+█▄▀ ▀█ ▄▀ █▄▄█▀▀ ▄▄▀  ▀▀▄▀▄▄ ▄ █▀█▀▄▀▄▀▄█ █▀▄ ▀█▄███  ▀ █▄█
+█▄▄▀▄▀▄▄█ ███  ▄ ▀▀█ █ █ ▄▀ ▄ ███▄▄▀█▀█▄▄█▀█▄▄   ▀█▄▀▀▄▀▀ █
+█▀ █▄▄ ▄▀▀▄▀▄▄ ▄▀▀█▄▄▀█ ██▀█▄▄  ▀█▀▀▄ ▄▀█▀ ▄▀▀▀██ ▄█▄███▄██
+█ █▀ ▄▄▄█▀█▄▄ █▄▀█▀▀▀▄ █▀ ▄▄█▄█ █▀▄█▀█▄▄ ▄▀▀▀▀▄▄▀▄▀▀██▄ ▄ █
+█ ▀ ▀▀▄▄██▀█▄█▄▄▄▄▄ ▄██ ▀  ▀▀██▀▄  █ ▀ ▀  █   █  ██ ▄█ ▄  █
+███████▄▄  ▀  █ ▀▄  ▀ ██ █▀ ▄▄▄ ▄▀▄█▀▄▄ ▀▀▄▄▄█▀█▀ ▄▄▄ ▄██▄█
+█ ▄▄▄▄▄ ██▀ ▀▀▀▄█▀██▄▄█ ▀▀▄ █▄█ ▀█ ▀▀▄█ █▀█▄▄▀ ▀▀ █▄█ ▄ ▀▀█
+█ █   █ █▀█▄█▀▄▀▀██▀ ▄ ▀ ▀▀ ▄▄      ▄█▄▄▄▀▀▄▄ ▀ █▄ ▄ ▄█ ▀██
+█ █▄▄▄█ █ █▄▄▀▀▀  ▀ ▄▀▀▀█▀█▄▀▀█▀█▀▀ ▀█▄█ ▀▀▄ ▄ ▄  ▀ ▄▀▄▄█▀█
+█▄▄▄▄▄▄▄█▄▄▄██▄▄█▄▄█▄█▄▄▄████▄███▄██▄█▄█▄▄▄█████▄███▄▄▄▄███
+
+🤖 Ethix-MD using WA v2.3000.1015901307, isLatest: true
+😃 Integration Successful️ ✅
+Closing open session in favor of incoming prekey bundle
+Closing session: SessionEntry {
+  _chains: {
+    'BRWzmAgUNWTkrz+SfIZtWZK+EYtFtHdXQiTSIEhtMnM2': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 1499097091,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 15 b3 98 08 14 35 64 e4 af 3f 92 7c 86 6d 59 92 be 11 8b 45 b4 77 57 42 24 d2 20 48 6d 32 73 36>,
+      privKey: <Buffer a0 a0 9d 8b 8d de 35 5d 03 f5 5e 73 92 c0 03 44 65 87 fb 18 32 b7 42 b0 f0 a3 be e1 b0 16 bb 65>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 51 a0 46 26 51 0e f0 cd ca 62 6f 74 b5 81 e3 9a fa 16 4e f3 1e 74 0a e9 37 e4 cd 4c b0 5b 6e 0f>,
+    previousCounter: 0,
+    rootKey: <Buffer a7 97 fb f4 3b 37 d4 d6 ca 9e 0a 4c 26 d6 75 f5 aa 0e 08 02 47 82 9c 64 8c cb 9f 2b e8 c5 20 b7>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 37 58 7c fb 94 b4 df 31 b3 e0 af f6 b8 b9 8c 24 31 47 68 8b 33 1c 2d ed c2 a3 1b c5 96 18 45 15>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1726490485641,
+    created: 1726490485641,
+    remoteIdentityKey: <Buffer 05 5c 48 b2 f1 84 37 57 c0 88 ac 0f 9e d1 79 a0 41 02 ff b6 06 98 67 9f ab 9a 8b 07 89 27 bd 10 17>
+  },
+  pendingPreKey: {
+    signedKeyId: 1,
+    baseKey: <Buffer 05 37 58 7c fb 94 b4 df 31 b3 e0 af f6 b8 b9 8c 24 31 47 68 8b 33 1c 2d ed c2 a3 1b c5 96 18 45 15>,
+    preKeyId: 5022847
+  }
+}
+{
+  key: {
+    remoteJid: '258879501190@s.whatsapp.net',
+    fromMe: true,
+    id: 'DF23699BFDF6DF68C67245A9E3E8F46C'
+  },
+  messageTimestamp: 1726490492,
+  broadcast: false,
+  status: 2,
+  verifiedBizName: 'Citações em Pt',
+  message: {
+    protocolMessage: {
+      type: 'HISTORY_SYNC_NOTIFICATION',
+      historySyncNotification: [Object]
+    }
+  },
+  id: 'DF23699BFDF6DF68C67245A9E3E8F46C',
+  isSelf: true,
+  from: '258879501190@s.whatsapp.net',
+  isGroup: false,
+  sender: '258879501190@s.whatsapp.net',
+  type: 'protocolMessage',
+  messageTypes: [Function (anonymous)],
+  quoted: null,
+  body: '',
+  reply: [Function (anonymous)],
+  mentions: [],
+  download: [Function (anonymous)],
+  downloadFile: [Function (anonymous)],
+  React: [Function (anonymous)],
+  getQuotedObj: [AsyncFunction (anonymous)],
+  copy: [Function (anonymous)],
+  copyNForward: [Function (anonymous)]
+}
